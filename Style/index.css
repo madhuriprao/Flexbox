@@ -2,7 +2,7 @@
   height: 90%;
   width: 230px;
   background-color: white;
-  color: brown;
+  color: #3f000f;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -16,7 +16,7 @@
   height: 100%;
   margin: 5px;
   padding: 50px;
-  background-color: brown;
+  background-color: #3f000f;
   justify-content: space-evenly;
   align-content: space-evenly;
   flex-wrap: wrap;
@@ -100,18 +100,32 @@
   height: 100px;
   margin: 5px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-basis: 180px;
   position: relative;
 }
-
-.forthbox {
+.forthboxA {
   background-color: #9d0208;
   border: 2px solid #9d0208;
   width: 30px;
   height: 30px;
   margin: 3px;
+}
+.forthboxB {
+  background-color: #9d0208;
+  border: 2px solid #9d0208;
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+}
+.forthboxC {
+  background-color: #9d0208;
+  border: 2px solid #9d0208;
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+  align-self: self-end;
 }
 
 .row-second {
@@ -131,11 +145,25 @@
   position: relative;
 }
 
-.fifthbox {
+.fifthboxA {
+  background-color: #9d0208;
+  border: 2px solid #9d0208;
+  width: 30px;
+  height: 60px;
+  margin: 3px;
+}
+.fifthboxB {
   background-color: #9d0208;
   border: 2px solid #9d0208;
   width: 30px;
   height: 30px;
+  margin: 3px;
+}
+.fifthboxC {
+  background-color: #9d0208;
+  border: 2px solid #9d0208;
+  width: 30px;
+  height: 60px;
   margin: 3px;
 }
 
@@ -147,20 +175,33 @@
   height: 100px;
   margin: 5px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-basis: 180px;
   position: relative;
 }
 
-.sixthbox {
+.sixthboxA {
   background-color: #9d0208;
   border: 2px solid #9d0208;
   width: 30px;
   height: 30px;
-  margin: 3px;
+  margin: 1px;
 }
-
+.sixthboxB {
+  background-color: #9d0208;
+  border: 2px solid #9d0208;
+  width: 75px;
+  height: 30px;
+  margin: 1px;
+}
+.sixthboxC {
+  background-color: #9d0208;
+  border: 2px solid #9d0208;
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+}
 .row-third {
   display: flex;
 }
